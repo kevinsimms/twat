@@ -1,0 +1,151 @@
+
+html{
+    cursor: url('pen.png'), auto;
+}
+
+.photo{
+    
+    z-index: -10;
+    
+    margin-bottom: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vh;
+}
+.photo img{
+    z-index: -10;
+   
+  /*  height: 80vh; */ 
+     width: 60vh; 
+  
+    padding-top: 5vh;
+   /*  margin-top: 10vh; */ 
+   
+}
+
+/* .photo1{
+    display: none;
+    z-index: -10;
+    
+    margin-bottom: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vh;
+}
+.photo1 img{
+    z-index: -10;
+   
+    height: 80vh; 
+     width: 60vh; 
+  
+    padding-top: 5vh;
+     margin-top: 10vh;  
+   
+} */
+
+#photo2{
+  
+    margin-left: auto;
+    margin-right: auto;
+
+    display: none;
+}
+
+#photo3{
+    
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: none;
+}
+
+#photo4{
+    
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: none;
+}
+
+#photo5{
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    display: none;
+}
+
+#photo6{
+   
+    margin-left: auto;
+    margin-right: auto;
+ 
+    display: none;
+}
+
+#photo7{
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    display: none;
+}
+
+#check{
+    margin-left: 80%;
+    position: absolute;
+    /* width: 7vw; */
+
+      margin-top: -12px;  
+    float: right;
+    z-index: 3;
+}
+
+
+
+#photoensemble img{
+    margin-top: 40px;
+    margin-left: 30px;
+
+
+}
+
+ #photoensemble{
+    display: none;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#photoensemble2 img{
+    margin-top: 40px;
+    margin-left: 30px;
+
+
+}
+
+ #photoensemble2{
+    display: none;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+
+@media (max-device-width: 550px){
+
+
+
+    #check{
+        margin-top: 50px;
+         width: 300px; 
+       margin-right: -300px;
+        float: right;
+        z-index: 3;
+    }
+
+
+
+
+}
